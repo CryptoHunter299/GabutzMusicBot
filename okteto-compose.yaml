@@ -1,0 +1,23 @@
+version: "3.10"
+
+services:
+
+  worker:
+
+    build: .
+
+    environment:
+
+      - API_ID=${API_ID}
+
+      - API_HASH=${API_HASH}
+
+      - BOT_TOKEN=${BOT_TOKEN}
+      
+      - SESSION=${SESSION}
+      
+      - MONGO_DB_URI=${MONGO_DB_URI}
+      
+      - MUSIC_BOT_NAME=${MUSIC_BOT_NAME}
+      
+      - OWNER_ID=${OWNER_ID}
