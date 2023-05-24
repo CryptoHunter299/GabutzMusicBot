@@ -20,4 +20,6 @@ services:
       
       - MUSIC_BOT_NAME=${MUSIC_BOT_NAME}
       
+      - LOG_GROUP_ID=${LOG_GROUP_ID}
+      
       - OWNER_ID=${OWNER_ID}
